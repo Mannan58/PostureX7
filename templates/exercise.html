@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="exercise-container">
+
+    <h2>Live Workout</h2>
+
+    <div class="exercise-container">
+
+    <h2>Live Workout</h2>
+
+    <!-- THIS triggers Python code -->
+    <img id="videoFeed" src="" width="700">
+
+    <div class="controls">
+        <button onclick="startWorkout()">Start</button>
+        <button onclick="stopWorkout()">Stop</button>
+    </div>
+
+</div>
+
+<script>
+function startWorkout() {
+    document.getElementById("videoFeed").src = "/video";
+}
+
+function stopWorkout() {
+    document.getElementById("videoFeed").src = "";
+}
+</script>
+
+    <div class="controls">
+        <button onclick="startCamera()">Start</button>
+        <button onclick="stopCamera()">Stop</button>
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

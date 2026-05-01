@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <h1>Welcome back, {{ user }}</h1>
+
+    <div class="stats">
+        <div>186 Reps</div>
+        <div>7 Workouts</div>
+        <div>7d Streak</div>
+    </div>
+
+    <div class="cards">
+
+        <div class="card" onclick="location.href='/exercise'">
+            Start Exercise
+        </div>
+
+        <div class="card">Custom Schedule</div>
+        <div class="card">View Reports</div>
+        <div class="card">Help Desk</div>
+
+    </div>
+
+    <div class="recommended">
+        <h3>Full Body HIIT - 20 min</h3>
+        <button onclick="location.href='/exercise'">Quick Start</button>
+    </div>
+
+</div>
+
+</body>
+</html>

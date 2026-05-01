@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f0f0f;
+    color: white;
+}
+
+/* LOGIN */
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    flex: 1;
+    background: url('../images/bg.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    background: #1a1a1a;
+    border: none;
+    color: white;
+}
+
+button {
+    padding: 12px;
+    background: #39ff14;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* DASHBOARD */
+.dashboard {
+    padding: 40px;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: #39ff14;
+    color: black;
+}
+
+.recommended {
+    margin-top: 30px;
+    padding: 20px;
+    background: #1f3f1f;
+    border-radius: 10px;
+}
+
+/* EXERCISE */
+.exercise-container {
+    text-align: center;
+    padding: 30px;
+}
+
+video {
+    width: 60%;
+    border-radius: 10px;
+    border: 2px solid #39ff14;
+}
