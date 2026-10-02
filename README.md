@@ -1,6 +1,6 @@
 # 💪 GYM AI - AI-Powered Fitness Trainer
 
-An advanced real-time fitness training assistant that uses AI pose detection to track your exercise form, count reps, and provide real-time feedback.
+An advanced real-time fitness training assistant that uses AI pose detection to track your exercise form, give live feedback on your posture and angle, make sure you do it perfectly,count reps, and provide real-time feedback.
 
 ## Features
 
